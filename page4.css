@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Amiri', serif;
+}
+body{
+    overflow-x: hidden;
+    font-family:  'Amiri', serif;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+  .div{
+    background-color: black;
+     height: 200vh;
+    max-width:  100%;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ img{
+   
+     opacity: .2;
+     height: 200vh;
+     max-width:  100%;
+     border-radius: 20px;
+     overflow: hidden;
+ }
+ header{
+    width: 100%;
+    height: 90px;
+    box-shadow: #1a191a;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+
+.ao a{
+    color: rgb(228, 222, 222);
+    text-decoration: none;
+  font-weight: bold;
+    padding: 10px;
+ font-size: 22px;
+ height: 10px;
+}
+
+nav{
+    margin-top: 15px;
+    left: 30px;
+    position: absolute;
+    top: 20px;
+    flex-wrap: wrap;
+    font-family: 'Amiri', serif;
+    height: 10px;
+   
+    
+}
+a:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 10px;
+    color: black;
+}
+h1{
+    position: absolute;
+    right: 30px;
+    color: rgb(228, 223, 223);
+    font-family: 'Amiri', serif;
+    top: 0;
+    font-size: 50px;
+    
+}
+
+  h2 {
+    color: #d64d8d;
+    margin-bottom: 30px;
+    position: absolute;
+    top: 10%;
+    right: 36%;
+    font-size: 40px;
+  }
+
+  .testimonials {
+    display: grid;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: auto;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+    width: 700px;
+  }
+
+  .card {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(117, 61, 61, 0.4);
+    transition: transform 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .stars {
+    color: gold;
+    margin-bottom: 10px;
+  }
+
+  .name {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #c03a7f;
+  }
+  input{
+    width: 400px;
+    height: 60px;
+    position: absolute;
+    top: 170%;
+    right: 30%;
+    border: 6 solid rgb(201, 198, 198);
+    border-radius: 15px;
+
+  }
+  label{
+    position: absolute;
+    top: 170%;
+    right: 3%;
+    color: white;
+    font-size: 34px;
+  }
+  button{
+    position: absolute;
+    top: 185%;
+    right: 37%;
+    color: white;
+    font-size: 34px;
+    color: black;
+    border: 6 solid rgb(201, 198, 198);
+    border-radius: 10px;
+
+  }
+  @media (max-width: 768px) {
+  .testimonials {
+    right: 15%;
+    width: 300px;
+    top: 30%;
+  }
+  nav {
+    flex-direction: column;
+    top:80px;
+    align-items: center;
+  }
+   h2 {
+    right: 15%;
+    top: 20%;
+ 
+  }
+   input{
+    width: 200px;
+    height: 60px;
+    position: absolute;
+    top: 170%;
+    right: 43%;
+    border: 6 solid rgb(201, 198, 198);
+    border-radius: 15px;
+
+  }
+}

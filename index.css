@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Amiri', serif;
+}
+body{
+    overflow-x: hidden;
+    font-family:  'Amiri', serif;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.div{
+   background-color: black;
+    height: 170vh;
+   max-width:  100%;
+   display: flex;
+   flex-wrap: wrap;
+}
+img{
+  
+    opacity: .5;
+    height: 170vh;
+    max-width:  100%;
+    border-radius: 20px;
+}
+header{
+    width: 100%;
+    height: 90px;
+    box-shadow: #1a191a;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+
+.ao a{
+    color: rgb(228, 222, 222);
+    text-decoration: none;
+  font-weight: bold;
+    padding: 10px;
+ font-size: 22px;
+ height: 10px;
+}
+
+nav{
+    margin-top: 15px;
+    left: 30px;
+    position: absolute;
+    top: 20px;
+    flex-wrap: wrap;
+    font-family: 'Amiri', serif;
+    height: 10px;
+   
+    
+}
+a:hover{
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 10px;
+    color: black;
+}
+h1{
+    position: absolute;
+    right: 30px;
+    color: rgb(228, 223, 223);
+    font-family: 'Amiri', serif;
+    top: 20px;
+    font-size: 50px;
+    
+}
+
+footer{
+    background-color: #f1bce7;
+    width: 100%;
+    height: 220px;
+    box-shadow: #1a191a;
+    border-radius: 10px;
+    position:absolute;
+    top:160%;
+    border-top: #1a191a 4 solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+.p1{
+   position: absolute;
+    right:50%;
+    top: 76%;
+}
+.au{
+    position: absolute;
+    top:0%;
+    right: 30px;
+    padding: 15px;
+   
+   
+}
+.au a{
+    color: rgb(48, 24, 24);
+   font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+   
+}
+
+.p2{
+    color: rgb(48, 24, 24);
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 40px;
+    right: 30%;
+
+}
+.p3{
+    color: rgb(48, 24, 24);
+    font-weight: bold;
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    left: 0%;
+    padding: 10px;
+}
+.p3 a{
+    color: rgb(48, 24, 24);
+    font-weight: bold;
+    text-decoration: none;
+}
+.po{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 100%;
+    right: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:30px ;
+    margin: 10px;
+    text-shadow: 2px 2px 4px rgba(40, 36, 36, 0.4);
+    justify-content: center;
+
+
+}
+
+
+h2{
+    
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 50%;
+    right: 4%;
+    padding: 10px;
+    margin: 10px;
+    text-shadow: 2px 2px 4px rgba(181, 71, 71, 0.4);
+    
+}
+.img{
+    position: absolute;
+    top: 20%;
+  left: 3%;
+   width: 17%;
+   height: 43%;
+   opacity: 89;
+   box-shadow: 5px 5px 15px rgba(117, 61, 61, 0.4);
+   border-radius: 20px;
+   z-index: 99;
+   transform: skew(3deg, 3deg);
+}
+.img2{
+    position: absolute;
+    top: 55%;
+  left: 23%;
+  width: 17%;
+   height: 43%;
+   opacity: 89;
+   box-shadow: 5px 5px 15px rgba(117, 61, 61, 0.4);
+   border-radius: 20px;
+   z-index: 99;
+ transform: skew(3deg, 3deg);
+}
+.img3{
+    position: absolute;
+    top: 38%;
+  left: 42%;
+  width: 17%;
+  height: 43%;
+   opacity: 89;
+   box-shadow: 5px 5px 15px rgba(117, 61, 61, 0.4);
+   border-radius: 20px;
+   z-index: 99;
+   transform: skew(3deg, 3deg);
+  
+   
+}
+.img3:hover{
+    transform: scale(1.1);
+   
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.img:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 768px) {
+      .text {
+        font-size: 16px;
+      }
+      .img ,.img2,.img3{
+   width: 30%;
+   height: 30%;
+   
+  
+}
+h2{
+    
+   
+    top: 86%;
+   
+    
+}
+.img3{
+     left: 64%;
+    
+}
+ .img2{
+     left: 30%;
+    
+}
+.img{
+    top: 22%;
+}
+ 
+.po{
+    font-size: 25px;
+ 
+}
+nav {
+    flex-direction: column;
+    top:80px;
+    align-items: center;
+  }
+
+ footer{
+    height: 320px;}
+
+    }
+    .p2{
+ 
+    top: 66%;
+    right: 20%;
+    }
+
+    .p1{
+     top: 89%;
+    right: 70px;
+}
+
+  
+  
